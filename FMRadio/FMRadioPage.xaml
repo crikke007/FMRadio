@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FMRadio" x:Class="FMRadio.FMRadioPage">
+<Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+			<RowDefinition Height="20" />
+            <RowDefinition Height="70" />
+            <RowDefinition Height="70" />
+			<RowDefinition Height="70" />
+			<RowDefinition Height="70" />
+			<RowDefinition Height="70" />
+			<RowDefinition Height="70" />
+			<RowDefinition Height="70" />
+			<RowDefinition Height="70" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+			<ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+			<ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <Label FontSize="30" BackgroundColor= "#e74c3c" Grid.Column="0" Grid.ColumnSpan="5"/>
+
+		<Image Source="https://upload.wikimedia.org/wikipedia/commons/c/c7/Radio_1_Flandre_logo_2014.png" Grid.Row="2" Grid.Column="1" >
+    	 <Image.GestureRecognizers>
+        	<TapGestureRecognizer Tapped="Settings_Clicked"/>
+    	 </Image.GestureRecognizers>
+		</Image>
+	
+		<Image Source="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/VRT_Studio_Brussel_logo.png/266px-VRT_Studio_Brussel_logo.png" Grid.Row="2" Grid.Column="2"></Image>
+       	<Image Source="http://www.woordslam.be/cms/templates/woordslam/img/logo-mnm-new@2x.png" Grid.Row="2" Grid.Column="3" ></Image>
+
+		<Image Source="http://db.radioline.fr/pictures/radio_ea08a595a181ce3b4485bf8d6e0e2129/logo200.jpg?size=200" Grid.Row="3" Grid.Column="1"></Image>
+		<Image Source="https://communicatieradio.vrt.be/press/new/img/logos/radio2.png" Grid.Row="3" Grid.Column="2"></Image>
+       	<Image Source="http://digitalradio.nl/assets/uploads/logo-groot-Qmusic.png" Grid.Row="3" Grid.Column="3"></Image>
+
+
+
+    </Grid>
+	</ContentPage>
+
